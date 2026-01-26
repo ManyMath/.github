@@ -1,105 +1,71 @@
 # ManyMath, LLC
 
-Full-stack software polymaths specializing in cryptography and cryptocurrency infrastructure and protocol engineering.
+Full-stack software development specializing in cryptography infrastructure and cross-platform applications.
 
 ## What We Do
 
-- Privacy-preserving cryptocurrency infrastructure and protocol engineering
-- Cross-platform wallet systems supporting 15+ blockchain networks
-- Complex cross-compilation and build systems for cryptographic libraries
-- Security auditing for blockchain protocols and decentralized systems
-- Advanced cryptographic implementations (RingCT, CoinJoin, zero-knowledge proofs)
+- Cross-platform application development for mobile and desktop
+- Cryptocurrency wallet integration and blockchain protocol engineering
+- Complex build systems and multi-platform deployment pipelines
+- Security auditing and code review for financial systems
+- Advanced cryptographic library implementation and testing
 
 ## Selected Work
 
-### Stack Wallet — Multi-Currency Privacy Wallet
+### Stack Wallet — Multi-Currency Cryptocurrency Wallet
 
-Core engineering for a production multi-currency privacy wallet from Cypher Stack.
+Core engineering for production cryptocurrency wallet application.
 
-- Core contributor to a production wallet used globally across mobile and desktop
-- Ported C++ Monero and Firo and Rust Epic Cash cryptocurrency libraries for Flutter to Windows
-- Built system-wide Tor routing with `.onion` node support and Tor-only kill-switch modes
-- Submitted upstream Tor-compatibility PRs for Solana, Tezos, and Stellar Flutter packages on pub.dev
-- Cryptocurrency integrations: Salvium, Epic Cash, Solana, Litecoin Ordinals, Tezos, Stellar, Particl, Peercoin
-- Integration maintenance: Monero, Wownero, Bitcoin, Bitcoin Cash, Litecoin, Firo, Dogecoin, Dash, Zcash, Ethereum, Banano, Nano
-- Advanced features: FROST multisig, Tor-only networking, Replace-By-Fee, Solana SPL tokens, Litecoin Ordinals, CashFusion
+- Core contributor to production wallet deployed globally across mobile and desktop platforms
+- Ported C++ and Rust cryptocurrency libraries for Flutter on Windows
+- Cryptocurrency integrations: Bitcoin, Ethereum, Litecoin, Solana, Tezos, Stellar, Cardano
+- Advanced features: Multi-signature wallets, fee estimation, token support
 
-**Build systems and cryptographic runtime engineering:**
+**Build systems and cross-platform engineering:**
 
-- Architected Windows cross-compilation pipelines for privacy-coin stacks from Linux
+- Architected Windows cross-compilation pipelines from Linux
 - Automated CMake + Cargo + Flutter hybrid build systems
 - Android NDK pipelines (arm64-v8a, armeabi-v7a, x86_64) with Rust and C++ integrations
 
-### Tor & Arti — Privacy Network Integration
+### Cryptocurrency Protocol Engineering
 
-Cross-platform Tor and Arti networking stacks for Dart/Flutter from Foundation Devices and Cypher Stack.
+Blockchain wallet infrastructure and protocol implementation.
 
-- Maintainer and contributor to Flutter Tor tooling ([Foundation-Devices/tor](https://github.com/Foundation-Devices/tor), [cypherstack/tor](https://github.com/cypherstack/tor): [`tor`](https://pub.dev/packages/tor) on pub.dev)
-- Built SOCKS5 and SSL/TLS socket layers for Tor-routed networking ([`socks_socket`](https://pub.dev/packages/socks_socket) on pub.dev)
-- Created Rust-backed Arti bindings for Flutter ([ManyMath/darti](https://github.com/ManyMath/darti), [`arti`](https://pub.dev/packages/arti) on pub.dev)
-- Cross-platform support: Android, iOS, Windows, macOS, Linux
+- Major contributor to cryptocurrency wallet libraries and Flutter bindings
+- Designed and implemented Rust-based wallet cores for multiple blockchains
+- Built transaction pipelines: key management, fee logic, transaction construction
+- Implemented testnet transaction creation and validation engines
+- Developed WASM-compatible wallet prototypes for web environments
 
-### Monero Engineering — wallet2, Rust, WASM
+### Security Auditing & Code Review
 
-Deep Monero wallet, protocol, and tooling engineering from Cake Labs, Serai DEX, and monero-oxide.
+Formal security review and cryptographic code auditing.
 
-- Major contributor to `monero_c` and Flutter bindings for `wallet2` across all platforms
-- Designed and implemented Rust-first Monero wallet cores ([`monero-rust`](https://crates.io/crates/monero-rust) on crates.io)
-- Built full wallet pipelines: scanning, key images, decoy selection, fee logic, transaction construction
-- Implemented stagenet/testnet transaction creation and output detection engines
-- Developed WASM-compatible Monero wallet prototypes and browser-extension experiments
+- Comprehensive security audits on cryptocurrency libraries and protocols
+- Code review for financial applications and cryptographic implementations
+- Implementation verification against technical specifications
 
-### CashFusion Protocol — Bitcoin Cash Privacy
+### Application Development & Systems Engineering
 
-Full collaborative transaction privacy protocol implementation from Cypher Stack.
+Cross-platform application development and research projects.
 
-- Implemented CashFusion protocol in Dart (fusiondart)
-- Blind signatures, Pedersen commitments, Schnorr signing, covert submission flows
-- Built session logic, blame validation, and coordinator messaging layers
-- Integrated Tor transport and deployed into Stack Wallet
-
-### Security Research & Protocol Auditing
-
-Formal security review and cryptographic auditing from Cypher Stack and Power Up Privacy.
-
-- Comprehensive audit on Serai DEX's `monero-serai` library
-- Extended review of `monero-wallet` and `monero-oxide`
-- Implementation audits: `CARROT` addressing scheme, Salvium `T-CLSAG`, `rage` encryption library
-
-### Epic Cash & Slate-Based Systems
-
-Epic Cash wallet, networking, and slate protocol engineering from Epic Labs and Cypher Stack.
-
-- Maintained and overhauled flutter_libepiccash across all major platforms
-- Implemented Tor networking and EpicBox failover systems and listener infrastructure
-- Refactored transaction pipelines, slate parsing, and wallet concurrency models
-- Designed test harnesses, example apps, and CI-friendly build systems
-
-### Experimental Systems & R&D
-
-Advanced research and experimental platforms from FiestaBerry and novel, independent productions.
-
-- Built Ren'Py-compatible dialogue and scripting runtime in Flutter (FiestaVN, [`renpy_flutter`](https://pub.dev/packages/renpy_flutter) on pub.dev)
-- Designed cryptographic game mechanics and zero-trust gameplay research prototypes
-- Developed automated Monero wallet orchestration and testing systems
-- Browser-extension wallet research and WASM wallet engines
+- Built Ren'Py-compatible dialogue and scripting runtime in Flutter ([`renpy_flutter`](https://pub.dev/packages/renpy_flutter) on pub.dev)
+- Designed interactive application frameworks and game mechanics
+- Developed automated testing and orchestration systems
+- Browser-extension development and WebAssembly applications
 
 ## Technical Stack
 
 **Core Languages:** Rust, C++, Dart, FFI and cross-language interop
 
-**Cryptography:** RingCT, Schnorr, Pedersen commitments, implementation audits to spec
+**Cryptography:** Digital signatures, hash functions, implementation audits to spec
 
-**Cross-Platform:** Flutter for all major platforms, JavaScript, TypeScript, React, React Native, WASM for browser targets
+**Cross-Platform:** Flutter for all major platforms, JavaScript, TypeScript, React, React Native, WASM
 
-**Build Systems:** Rustup, Dart, CMake, MXE, MinGW64, NDK
+**Build Systems:** CMake, Cargo, NDK, cross-compilation toolchains
 
-**Privacy Infrastructure:** Tor (Arti), SOCKS5, .onion routing, network-level anonymity and kill-switches
+**Blockchain Protocols:** JSON-RPC, WebSocket, transaction construction, fee estimation
 
-**Blockchain Protocols:** Electrum, JSON-RPC, WebSocket, UTXO management, fee logic, derivation
+## Contact
 
-## Engagement
-
-We offer fixed-scope contracts, retainer engagements, and technical advisory services for privacy-focused blockchain projects.
-
-Visit [manymath.com](https://manymath.com) for more information.
+Visit [manymath.com](https://manymath.com) for more information on engagement models and services.
